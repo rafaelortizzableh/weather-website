@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2.5vh;
 }
 
 .main-content {
@@ -27,7 +27,7 @@ footer {
     bottom:0;
     position: absolute;
     width: 100%;
-    font-size: 1.3em;
+    font-size: 2.5vh;
 }
 
 header {
@@ -36,10 +36,12 @@ header {
     text-align: center;
     background-color: #333333;
     padding: 2vh;
+    border-bottom: 8px solid #9774CC ;
+
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 8vh;
     margin-bottom: 16px;
     color: #9774CC;
 }
@@ -48,7 +50,7 @@ header a {
     color: #888888;
     margin-right: 16px;
     text-decoration: none;
-    font-size: 2vh;
+    font-size: 3vh;
 }
 
 .portrait {
@@ -62,7 +64,8 @@ input {
     border: 1px solid transparent;
     padding: 8px;
     box-shadow: 0 1px 4px;
-    font-size: 1.3em;
+    font-size: 2.5vh;
+    text-align: center;
 }
 
 ::placeholder {
@@ -78,5 +81,5 @@ button {
     padding: 8px;
     margin: 20px;
     box-shadow: 0 1px 4px;
-    font-size: 1.3em;
+    font-size: 2.5vh;
 }
